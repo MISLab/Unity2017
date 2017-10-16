@@ -16,7 +16,7 @@ var Navigator = React.createClass({
 				React.createElement(
 					"a",
 					{ href: "./index.html", id:currentPage.index},
-					"CG2017"
+					"Unity2017"
 				)
 			),
 			React.createElement(

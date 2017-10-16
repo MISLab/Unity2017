@@ -11,32 +11,12 @@ var About = React.createClass({
 			React.createElement(
 				"p",
 				null,
-				"Computer graphic is a field of computer science that studies methods for digitally generating visual content. It has been a central part of our live, in entertainment industry, designing, medical science, just to name a few."
-			),
-			React.createElement(
-				"p",
-				null,
-				"In this course, we will introduce the basics of computer graphic, such as, three-dimensional data manipulation, rendering, animation, surface reconstruction and image processing."
+				"本課程共四週(共18小時)，教授程式設計基礎概念，並以Unity遊戲程式範例引導學生快速入門遊戲程式設計。每週課程均搭配多位助教協助授課，確保學生在實際操作Unity與撰寫程式遇到困難時，可即時詢問解惑。透過兩次作業與一個專題實作，全班共同發揮創意完成一系列探索台南歷史人文風情之闖關小遊戲。"
 			),
 			React.createElement(
 				"div",
 				{className:"title"},
 				"Prerequisites"
-			),
-			React.createElement(
-				"div",
-				{className:"listInfo"},
-				"Programming skills in C/C++ and javascript",
-				React.createElement(
-					"br",
-					null
-				),
-				"Data structures",
-				React.createElement(
-					"br",
-					null
-				),
-				"Linear algebra"
 			)
 		);
 	}
@@ -88,33 +68,12 @@ var Lecturers = React.createClass({
 	}
 });
 
-var Support_Lecturers = React.createClass({
-	render:function(){
-		return React.createElement(
-			"div",
-			{className:"card"},
-			React.createElement(
-				"div",
-				{className:"title"},
-				"Supporting Lecturers"
-			),
-			React.createElement(
-				Person,
-				{name:"Shih-Chin Weng", title:"Senior Software Developer", company:"Style.Me"}
-			),
-            React.createElement(
-                Person,
-                {name:"Min-Hsiang Hung", title:"產品開發部總監", company:"Shadoworks Studio"}
-            )
-		)
-	}
-});
-
 var Grade = React.createClass({
 	render:function(){
 		return React.createElement(
 			"div",
 			{className:"grade"},
+			/*
 			React.createElement(
 				"div",
 				{className:"gradeItem"},
@@ -125,6 +84,7 @@ var Grade = React.createClass({
 				{className:"gradeScore"},
 				this.props.score
 			)
+			*/
 		);
 	}
 });
@@ -139,6 +99,7 @@ var Grading = React.createClass({
 				{className:"title"},
 				"Grading"
 			),
+			/*
             React.createElement(
 				Grade,
 				{item:"Class Participation", score:"5%"}
@@ -159,6 +120,7 @@ var Grading = React.createClass({
 				Grade,
 				{item:"Project", score:"45%"}
 			)
+			*/
 		)
 	}
 });
@@ -175,16 +137,28 @@ var TAs = React.createClass({
 			),
 			React.createElement(
 				Person,
-				{name:"許友綸"}
+				{name:"陳建文"}
 			),
 			React.createElement(
 				Person,
-				{name:"林季伯"}
+				{name:"陳文正"}
+			),
+			React.createElement(
+				Person,
+				{name:"彭建瑋"}
+			),
+			React.createElement(
+				Person,
+				{name:"張矽晶"}
+			),
+			React.createElement(
+				Person,
+				{name:"蘇俐文"}
 			),
 			React.createElement(
 				"div",
 				{className:"personInfo"},
-				"E-mail: cg@mislab.csie.ncku.edu.tw"
+				"E-mail: Unity@mislab.csie.ncku.edu.tw"
 			),
 			React.createElement(
 				"div",
@@ -215,10 +189,6 @@ var AboutBody = React.createClass({
 					Lecturers,
 					null
 				),
-                React.createElement(
-                    Support_Lecturers,
-                    null
-                ),
 				React.createElement(
 					Grading,
 					null
