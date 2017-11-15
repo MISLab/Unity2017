@@ -1,12 +1,21 @@
 var weekNum=1;
-var courseTitle="Comming soon";
+var courseTitle="Morning: Introduction to Unity & C# / Afternoon: UI & Framwork & IO of Unity";
 var courseInfo=[
 ];
 var announcement=[
+	"第一週課程即將開始囉！", 
+	"請各位同學務必攜帶自己的筆電並安裝好以下軟體（要下載很久所以請務必先安裝好）：",
+	"　",
+	"1. Unity 5.6 (https://unity3d.com/unity/whats-new/unity-5.6.0)",
+	"注意，不要裝比5.6.0新的版本（例如：2017.2） 不然有些功能會不相容",
+	"　",
+	"2. QuickTime (https://support.apple.com/downloads/quicktime)",
+	"　",
+	"大家週六早上 9:00 資工系館65304 教室來學Unity！"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
-	{id:"unity", mainTitle:"Unity ", subTopic:"2017", img:"./art/title.png"},
+	{id:"unity", mainTitle:"Unity ", subTopic:"2017", img:"./art/title_unity.png"}
 ]
 
 var titleCount=title.length;
@@ -94,7 +103,7 @@ var Info=React.createClass({
 		for(var a in courseInfo){
 			courseInfoEle.push(React.createElement("div", null, courseInfo[a]));
 		}
-		var announcementEle=["Comming soon"];
+		var announcementEle=[];
 		for(var a in announcement){
 			announcementEle.push(React.createElement("div", null, announcement[a]));
 		}
