@@ -1,6 +1,6 @@
 var lectures = [
 	{ title: "Week 1 Morning: Introduction to Unity & C#", img: "./art/week1_1.png", slideshow: "", video: "" },
-    { title: "Week 1 Afternoon: UI & Framwork & IO of Unity", img: "./art/week1_2.PNG", slideshow: "https://drive.google.com/drive/folders/1t8DBTIkhPngyvW-4E8aauTdjE93i-Dkp?usp=sharing", video: "https://youtu.be/P3cT9mnVmw0" }
+    { title: "Week 1 Afternoon: UI & Framwork & IO of Unity", img: "./art/week1_2.jpg", slideshow: "https://drive.google.com/drive/folders/1t8DBTIkhPngyvW-4E8aauTdjE93i-Dkp?usp=sharing", video: "https://youtu.be/P3cT9mnVmw0" }
 ]
 
 var Lecture = React.createClass({
