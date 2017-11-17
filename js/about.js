@@ -12,11 +12,6 @@ var About = React.createClass({
 				"p",
 				null,
 				"本課程共四週(共18小時)，教授程式設計基礎概念，並以Unity遊戲程式範例引導學生快速入門遊戲程式設計。每週課程均搭配多位助教協助授課，確保學生在實際操作Unity與撰寫程式遇到困難時，可即時詢問解惑。透過兩次作業與一個專題實作，全班共同發揮創意完成一系列探索台南歷史人文風情之闖關小遊戲。"
-			),
-			React.createElement(
-				"div",
-				{className:"title"},
-				"Prerequisites"
 			)
 		);
 	}
@@ -73,7 +68,6 @@ var Grade = React.createClass({
 		return React.createElement(
 			"div",
 			{className:"grade"},
-			/*
 			React.createElement(
 				"div",
 				{className:"gradeItem"},
@@ -84,7 +78,6 @@ var Grade = React.createClass({
 				{className:"gradeScore"},
 				this.props.score
 			)
-			*/
 		);
 	}
 });
@@ -99,14 +92,13 @@ var Grading = React.createClass({
 				{className:"title"},
 				"Grading"
 			),
-			/*
-            React.createElement(
+			React.createElement(
 				Grade,
-				{item:"Class Participation", score:"5%"}
+				{item:"Attending", score:"10%"}
 			),
 			React.createElement(
 				Grade,
-				{item:"Homework 1", score:"10%"}
+				{item:"Homework 1", score:"25%"}
 			),
 			React.createElement(
 				Grade,
@@ -114,13 +106,8 @@ var Grading = React.createClass({
 			),
 			React.createElement(
 				Grade,
-				{item:"Homework 3", score:"15%"}
+				{item:"Project", score:"40%"}
 			),
-			React.createElement(
-				Grade,
-				{item:"Project", score:"45%"}
-			)
-			*/
 		)
 	}
 });

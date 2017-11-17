@@ -1,6 +1,6 @@
 var lectures = [
-	//{ title: "Week 1: Syllabus & Overview of Computer Graphics", img: "./art/week1.png", slideshow: "./file/20170920 Syllabus.pdf", video: "https://goo.gl/m8Hb5m" },
-    //{ title: "Week 2: Introduction to Graphics Pipeline", img: "./art/week2.jpg", slideshow: "./file/20170926 Introduction to Graphics Pipeline.pdf", video: "https://youtu.be/yFvGRQvUTgU" },
+	{ title: "Week 1 Morning: Introduction to Unity & C#", img: "./art/week1_2.png", slideshow: "", video: "" },
+    { title: "Week 1 Afternoon: UI & Framwork & IO of Unity", img: "./art/week1_2.png", slideshow: "https://drive.google.com/drive/folders/1t8DBTIkhPngyvW-4E8aauTdjE93i-Dkp?usp=sharing", video: "" },
     //{ title: "Week 3: Introduction to Game Development and VR Applications", img: "./art/week3.jpg", slideshow: "https://goo.gl/FXbyfk", video: "https://youtu.be/MM93V1dOldE" },
 ]
 
