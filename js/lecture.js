@@ -1,7 +1,6 @@
 var lectures = [
-	{ title: "Week 1 Morning: Introduction to Unity & C#", img: "./art/week1_2.png", slideshow: "", video: "" },
-    { title: "Week 1 Afternoon: UI & Framwork & IO of Unity", img: "./art/week1_2.png", slideshow: "https://drive.google.com/drive/folders/1t8DBTIkhPngyvW-4E8aauTdjE93i-Dkp?usp=sharing", video: "" },
-    //{ title: "Week 3: Introduction to Game Development and VR Applications", img: "./art/week3.jpg", slideshow: "https://goo.gl/FXbyfk", video: "https://youtu.be/MM93V1dOldE" },
+	{ title: "Week 1 Morning: Introduction to Unity & C#", img: "./art/week1_1.png", slideshow: "", video: "" },
+    { title: "Week 1 Afternoon: UI & Framwork & IO of Unity", img: "./art/week1_2.PNG", slideshow: "https://drive.google.com/drive/folders/1t8DBTIkhPngyvW-4E8aauTdjE93i-Dkp?usp=sharing", video: "https://youtu.be/P3cT9mnVmw0" }
 ]
 
 var Lecture = React.createClass({

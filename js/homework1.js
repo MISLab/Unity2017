@@ -25,56 +25,87 @@ var Tutorial=React.createClass({
 			React.createElement(
 				"h1",
 				null,
-				"Homework 1: Unreal Engine 4 Practice"
+				"Homework 1"
 			),
+
 			React.createElement(
 				"div",
 				{className:"paragraph"},
 				React.createElement(
 					"h2",
 					null,
-					"Introduction"
+					"Requirement"
 				),
 				React.createElement(
-					"p",
-					null,
-					"The Unreal Engine is a game engine developed by Epic Games.\
-                    The Unreal Engine features a high degree of portability and is \
-                    a tool used by many game developers today. It has won several awards,\
-                    including the Guinness World Records award for \"most successful video game engine.\""
+					"div",
+					{className:"listInfo"},
+					"Final project proposal (*.ppt, *.doc, *.pdf, …) (80%)",						
+					React.createElement(
+						"br",
+						null
+					)
 				),
 				React.createElement(
-					"p",
-					null,
-					"In this assignment, you will have to follow the video in the link below. By learning how to use a popular game engine, you have to figure out what is a game development pipeline"
+					"div",
+					{className:"listInfo"},
+					"Design your UI in Unity for your final project on PC (your project folder *.zip) (10%)",						
+					React.createElement(
+						"br",
+						null
+					)
+				),
+				React.createElement(
+					"div",
+					{className:"listInfo"},
+					"Build Unity on the mobile device with your game UI design (10%)",						
+					React.createElement(
+						"br",
+						null
+					),
+					React.createElement(
+						"div",
+						{className:"listInfo"},
+						"Install Java Development Kit (JDK)",						
+						React.createElement(
+							"br",
+							null
+						)
+					),
+					React.createElement(
+						"div",
+						{className:"listInfo"},
+						"Install Android Software Development Kit (SDK)",						
+						React.createElement(
+							"br",
+							null
+						)
+					),
+					React.createElement(
+						"div",
+						{className:"listInfo"},
+						"Build a Unity program on your mobile device",						
+						React.createElement(
+							"br",
+							null
+						)
+					)
 				)
 			),
-            React.createElement(
+
+			 React.createElement(
 				"div",
 				{className:"paragraph clear"},
 				React.createElement(
 					"h2",
 					null,
-					"Download Unreal Props Assets "
+					"Download Homework Description & Unity Building Guide for Android"
 				),
 				React.createElement(
 					File,
-					{filename:"Unreal Assets", img:"./art/UnrealTutorial.png", file:"https://goo.gl/5WPUwo"}
+					{filename:"Homework Description & Unity Building Guide for Android", img:"./art/unity-android.png", file:"./file/UnityHW1.pdf"}
 				)
 			),
-			React.createElement(
-				"div",
-				{className:"paragraph clear"},
-				React.createElement(
-					"h2",
-					null,
-					"Unreal Tutorial Videos "
-				),
-				React.createElement(
-					File,
-					{filename:"Unreal Tutorials", img:"./art/UnrealTutorial.png", file:"https://goo.gl/nB19Fc"}
-				)
-			),
+
 			React.createElement(
 				"div",
 				{className:"paragraph"},
@@ -86,43 +117,18 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"div",
 					{className:"listInfo"},
-					"Submit \"Student ID.zip\" to Moodle.",
-					React.createElement(
-						"br",
-						null
-					),
-					"Include your game development pipeline /(in image formate like png, jpg, ..., or in ppt and pdf/).",
+					"Submit \"Student ID.zip\" to Moodle.",						
 					React.createElement(
 						"br",
 						null
 					),
 					React.createElement(
-						"span",
+						"div",
 						{className:"alert"},
-						"Deadline: 2017/10/2 22:00"
+						"Deadline: 2017/11/24 22:00"
 					)
 				)
-
-			),
-			React.createElement(
-				"div",
-				{id:"score", className:"paragraph"},
-				React.createElement(
-					"h2",
-					null,
-					"Scoring"
-				),
-				React.createElement(
-					"div",
-					{className:"listInfo"},
-					"Game Development Pipeline(100%)",						
-					React.createElement(
-						"br",
-						null
-					)
-				)
-			),
-			
+			)
 		)
 	}
 });
