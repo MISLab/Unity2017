@@ -1,5 +1,5 @@
 var lectures = [
-	{ title: "Week 1 Morning: Introduction to Unity & C#", img: "./art/week1_1.png", slideshow: "./file/Unity_week1_20171118_1.pdf", video: "" },
+	{ title: "Week 1 Morning: Introduction to Unity & C#", img: "./art/week1_1.png", slideshow: "./file/Unity_week1_20171118_1.pdf", video: "https://youtu.be/AmkUnDn_8nk" },
     { title: "Week 1 Afternoon: UI & Framwork & IO of Unity", img: "./art/week1_2.jpg", slideshow: "https://drive.google.com/drive/folders/1t8DBTIkhPngyvW-4E8aauTdjE93i-Dkp?usp=sharing", video: "https://youtu.be/P3cT9mnVmw0" }
 ]
 
