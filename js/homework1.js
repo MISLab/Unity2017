@@ -48,7 +48,7 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"div",
 					{className:"listInfo"},
-					"Design your UI in Unity for your final project on PC (your project folder *.zip) (10%)",						
+					"Design your UI in Unity for your final project on PC (10%)",						
 					React.createElement(
 						"br",
 						null
@@ -98,11 +98,15 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"h2",
 					null,
-					"Download Homework Description & Unity Building Guide for Android"
+					"Download Homework Description & Unity Building Guide for Android/IOS"
 				),
 				React.createElement(
 					File,
 					{filename:"Homework Description & Unity Building Guide for Android", img:"./art/unity-android.png", file:"./file/UnityHW1.pdf"}
+				),
+				React.createElement(
+					File,
+					{filename:"Unity Building Guide for IOS", img:"./art/unity.png", file:"./file/UnityIOS.pdf"}
 				)
 			),
 
@@ -117,7 +121,7 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"div",
 					{className:"listInfo"},
-					"Submit \"Student ID.zip\" to Moodle.",						
+					"Submit \"Student ID.zip\" to Moodle, the file only should include your proposal.",						
 					React.createElement(
 						"br",
 						null
