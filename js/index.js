@@ -1,5 +1,5 @@
-var weekNum=1;
-var courseTitle="Morning: Introduction to Unity & C# / Afternoon: UI & Framwork & IO of Unity";
+var weekNum=2;
+var courseTitle="Morning: 2D Game Design / Afternoon: Create your first 3D scene";
 var courseInfo=[
 ];
 var announcement=[
@@ -11,7 +11,10 @@ var announcement=[
 	"　",
 	"2. QuickTime (https://support.apple.com/downloads/quicktime)",
 	"　",
-	"大家週六早上 9:00 資工系館65304 教室來學Unity！"
+	"大家週六早上 9:00 資工系館65304 教室來學Unity！",
+	"　",
+	"　",
+	"Homework1上傳已開放, Deadline: 11/24 22:00"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
