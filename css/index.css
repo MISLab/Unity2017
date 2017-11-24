@@ -48,15 +48,14 @@
 	top:0;
 	left:0;
 }
-#titlecg .titleName{
-	right:5%;
-	bottom:20%;
+#titleunity .titleName{
+	left:5%;
+	top: 10%;
 	text-shadow: #888 2px 2px;
-	font-size: 0;
 }
 
 
-#titlecg .mainTitle, #titlecg .subTopic{
+#titleunity .mainTitle, #titlecg .subTopic{
   display: inline;
 }
 
@@ -74,7 +73,7 @@
 
 #titlehw3 .titleName, #titlehw4 .titleName{
   top:50%;
-	left:50%;
+	left:35%;
 	text-align: center;
   transform: translateY(-50%) translateX(-50%);
 }

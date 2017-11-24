@@ -3,7 +3,6 @@ var courseTitle="Morning: 2D Game Design / Afternoon: Create your first 3D scene
 var courseInfo=[
 ];
 var announcement=[
-	"第一週課程即將開始囉！", 
 	"請各位同學務必攜帶自己的筆電並安裝好以下軟體（要下載很久所以請務必先安裝好）：",
 	"　",
 	"1. Unity 5.6 (https://unity3d.com/unity/whats-new/unity-5.6.0)",
@@ -14,11 +13,19 @@ var announcement=[
 	"大家週六早上 9:00 資工系館65304 教室來學Unity！",
 	"　",
 	"　",
-	"Homework1上傳已開放, Deadline: 11/24 22:00"
+	"Homework1上傳已開放, Deadline: 11/24 22:00",
+	"　",
+	"　",
+	"第二週上課資料已上傳，同學們可以先下載以免上課時網路塞車",
+	"　",
+	"UnityStandardAssestsSetup",
+	"(https://drive.google.com/open?id=1Y11uizGPH16g3wzjThWrSzX_ND9KXkFj)"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
-	{id:"unity", mainTitle:"Unity ", subTopic:"2017", img:"./art/title_unity.png"}
+	{id:"unity", mainTitle:"Unity", subTopic:"2017", img:"./art/title_unity.png"},
+	{id:"hw1", mainTitle:"Homework 1", subTopic:"Final Project Proposal", img:"./art/unity-android.png", href:"./homework1.html"},
+	{id:"hw2", mainTitle:"Homework 2", subTopic:"Unity 2D Animation", img:"./art/hw2.png", href:"./homework2.html"}
 ]
 
 var titleCount=title.length;
