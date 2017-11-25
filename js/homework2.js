@@ -81,10 +81,11 @@ var Tutorial=React.createClass({
 				React.createElement(
 					"div",
 					{className:"listInfo"},
-					" ",						
+					"Upload the link of your project folder (*.zip) in your cloud storage (Google Drive) to Moodle",						
 					React.createElement(
-						"br",
-						null
+						"div",
+						{className:"listInfo"},
+						"(將你的project資料夾打包成*.zip，並上傳至你的雲端硬碟，將雲端硬碟的連結上傳至Moodle)",						
 					),
 					React.createElement(
 						"div",
