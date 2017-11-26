@@ -1,5 +1,5 @@
-var weekNum=2;
-var courseTitle="Morning: 2D Game Design / Afternoon: Create your first 3D scene";
+var weekNum=3;
+var courseTitle="Create your first 3D scene / FPS Game Development";
 var courseInfo=[
 ];
 var announcement=[
@@ -13,13 +13,10 @@ var announcement=[
 	"大家週六早上 9:00 資工系館65304 教室來學Unity！",
 	"　",
 	"　",
-	"Homework1上傳已開放, Deadline: 11/24 22:00",
+	"Homework1已放補交, Deadline: 12/01 22:00",
 	"　",
 	"　",
-	"第二週上課資料已上傳，同學們可以先下載以免上課時網路塞車",
-	"　",
-	"UnityStandardAssestsSetup",
-	"(https://drive.google.com/open?id=1Y11uizGPH16g3wzjThWrSzX_ND9KXkFj)"
+	"Homework2上傳已開放, Deadline: 12/01 22:00"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
