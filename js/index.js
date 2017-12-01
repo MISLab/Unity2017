@@ -16,7 +16,10 @@ var announcement=[
 	"Homework1已放補交, Deadline: 12/01 22:00",
 	"　",
 	"　",
-	"Homework2上傳已開放, Deadline: 12/01 22:00"
+	"Homework2上傳已開放, Deadline: 12/01 22:00",
+	"　",
+	"　",
+	"請各位先行下載Week3的asset，以免在課堂上網路太慢，謝謝。"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
