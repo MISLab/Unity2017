@@ -3,23 +3,9 @@ var courseTitle="Create your first 3D scene / FPS Game Development";
 var courseInfo=[
 ];
 var announcement=[
-	"請各位同學務必攜帶自己的筆電並安裝好以下軟體（要下載很久所以請務必先安裝好）：",
+	"周六 12/9 9:00 ~ 12:00 為Final project Demo，請同學務必準時到教室!!",
 	"　",
-	"1. Unity 5.6 (https://unity3d.com/unity/whats-new/unity-5.6.0)",
-	"注意，不要裝比5.6.0新的版本（例如：2017.2） 不然有些功能會不相容",
-	"　",
-	"2. QuickTime (https://support.apple.com/downloads/quicktime)",
-	"　",
-	"大家週六早上 9:00 資工系館65304 教室來學Unity！",
-	"　",
-	"　",
-	"Homework1已放補交, Deadline: 12/01 22:00",
-	"　",
-	"　",
-	"Homework2上傳已開放, Deadline: 12/01 22:00",
-	"　",
-	"　",
-	"請各位先行下載Week3的asset，以免在課堂上網路太慢，謝謝。"
+	"每位同學要投票選出自己覺得最佳的那一組(不可投給自己)，前三名將會有驚喜禮物喔"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
