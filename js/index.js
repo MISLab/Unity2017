@@ -1,5 +1,5 @@
-var weekNum=3;
-var courseTitle="Create your first 3D scene / FPS Game Development";
+var weekNum=4;
+var courseTitle="Final Project Presentation";
 var courseInfo=[
 ];
 var announcement=[
