@@ -3,7 +3,8 @@ var lectures = [
     { title: "Week 1 Afternoon: UI & Framework & IO of Unity", img: "./art/week1_2.jpg", slideshow: "https://drive.google.com/drive/folders/1t8DBTIkhPngyvW-4E8aauTdjE93i-Dkp?usp=sharing", video: "https://youtu.be/P3cT9mnVmw0" },
     { title: "Week 2 Morning: 2D Game Design", img: "./art/week2_1.jpg", slideshow: "https://drive.google.com/drive/u/1/folders/1Y11uizGPH16g3wzjThWrSzX_ND9KXkFj", video: "https://youtu.be/e-BnlTutzuQ" },
     { title: "Week 2 Afternoon: UI Design", img: "./art/week2_2.jpg", slideshow: "https://drive.google.com/drive/u/1/folders/1Y11uizGPH16g3wzjThWrSzX_ND9KXkFj", video: "https://youtu.be/hOwHyOFNACU" },
-    { title: "Week 3: Create your first 3D scene", img: "./art/week3.png", slideshow: "https://drive.google.com/drive/u/1/folders/1QVoUgqS3IKPRNk7PYrEibUu8j5FL3byW", video: "" }
+    { title: "Week 3 Morning: Create your first 3D scene", img: "./art/week3.png", slideshow: "https://drive.google.com/drive/u/1/folders/1QVoUgqS3IKPRNk7PYrEibUu8j5FL3byW", video: "https://youtu.be/g-5cue8Iwcc" },
+    { title: "Week 3 Afternoon: 3D FPS Game development", img: "./art/week3_1.png", slideshow: "https://drive.google.com/drive/u/1/folders/1QVoUgqS3IKPRNk7PYrEibUu8j5FL3byW", video: "https://youtu.be/PNrzPKkihSo" }
 ]
 
 var Lecture = React.createClass({

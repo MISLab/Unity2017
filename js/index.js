@@ -5,7 +5,9 @@ var courseInfo=[
 var announcement=[
 	"周六 12/9 9:00 ~ 12:00 為Final project Demo，請同學務必準時到教室!!",
 	"　",
-	"每位同學要投票選出自己覺得最佳的那一組(不可投給自己)，前三名將會有驚喜禮物喔"
+	"每位同學要投票選出自己覺得最佳的那一組(不可投給自己)，前三名將會有驚喜禮物喔",
+	"　",
+	"Week 3 的影片已上傳"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
