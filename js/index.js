@@ -7,7 +7,11 @@ var announcement=[
 	"　",
 	"每位同學要投票選出自己覺得最佳的那一組(不可投給自己)，前三名將會有驚喜禮物喔",
 	"　",
-	"Week 3 的影片已上傳"
+	"請各組將Final Project整個Unity資料夾壓縮後(*.zip)上傳至以下的雲端硬碟網址",
+	"　",
+	"檔名請註明你們是哪一組，若有其他有關Final Project的報告 (*.pdf, *.ppt, ...)也可以一併放入壓縮檔",
+	"　",
+	"https://drive.google.com/drive/u/1/folders/1-9exsCsutVTe-yDAFrpd7PKpqridyNIV"
 ];
 var title = [
 	/*{id:"final", mainTitle:"Final Presentation", subTopic:"2016.06.28", img:"./art/final.png"},*/
